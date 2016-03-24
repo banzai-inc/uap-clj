@@ -6,7 +6,7 @@
   :scm {:name "git"
         :url "https://github.com/russellwhitaker/uap-clj"}
   :dependencies [[org.clojure/clojure "1.8.0"]
-                 [circleci/clj-yaml "0.5.5"]]
+                 [clj-yaml "0.4.0"]]
   :profiles {:dev
               {:dependencies [[speclj "3.3.1"
                                       :exclusions [org.clojure/clojure]]

@@ -1,6 +1,5 @@
 (ns uap-clj.device
   (:require [uap-clj.common :refer [regexes-all first-match lookup-field]]
-            [clj-yaml.core :refer [parse-string]]
             [clojure.java.io :as io :refer [resource]]
             [clojure.string :as s :refer [join trim]])
   (:gen-class))

@@ -3,7 +3,6 @@
             [uap-clj.browser :refer [extract-browser-fields]]
             [uap-clj.os :refer [extract-os-fields]]
             [uap-clj.device :refer [extract-device-fields]]
-            [clj-yaml.core :refer [parse-string]]
             [clojure.java.io :as io :refer [resource]]
             [clojure.string :as s :refer [join trim]])
   (:gen-class))
